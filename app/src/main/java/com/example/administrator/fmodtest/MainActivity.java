@@ -148,28 +148,10 @@ public class MainActivity extends Activity implements OnTouchListener, Runnable
 	private native void setStateStop();
 	private native void setStateDestroy();
 	private native void main();
-	
-    static 
-    {
-    	/*
-    	 * To simplify our examples we try to load all possible FMOD
-    	 * libraries, the Android.mk will copy in the correct ones
-    	 * for each example. For real products you would just load
-    	 * 'fmod' and if you use the FMOD Studio tool you would also
-    	 * load 'fmodstudio'.
-    	 */
 
-    	
-    	// Try logging libraries...
-    	try { 
-    		System.loadLibrary("fmodL");
-    	}catch (UnsatisfiedLinkError e) { }
-		// Try release libraries...
-		try { 
-			System.loadLibrary("fmod");
-		}catch (UnsatisfiedLinkError e) { }
-    	
-    	//System.loadLibrary("stlport_shared");
-        System.loadLibrary("native-lib");
-    }	
+	static {
+		System.loadLibrary("fmodL");
+		System.loadLibrary("fmod");
+		System.loadLibrary("sound");
+	}
 }

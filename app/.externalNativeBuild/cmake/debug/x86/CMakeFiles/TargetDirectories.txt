@@ -1,3 +1,4 @@
-E:/fmodTest/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/native-lib.dir
+E:/fmodTest/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/fmodL.dir
+E:/fmodTest/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/sound.dir
 E:/fmodTest/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
 E:/fmodTest/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,0 @@
-# ninja log v5
-1	395	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9892dbfe9eae4c97
-29	397	0	CMakeFiles/native-lib.dir/src/main/cpp/common.cpp.o	3e74edda73c44cf3
-138	507	0	CMakeFiles/native-lib.dir/src/main/cpp/play_sound.cpp.o	be88742161139c1e
-74	600	0	CMakeFiles/native-lib.dir/src/main/cpp/common_platform.cpp.o	3796ba32f1a38d4e
-191	629	0	CMakeFiles/native-lib.dir/src/main/cpp/effect_fix.cpp.o	daf63175d49b6b81
-287	683	0	CMakeFiles/native-lib.dir/src/main/cpp/effects.cpp.o	417e2cf7ce238989

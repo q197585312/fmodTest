@@ -3,14 +3,14 @@
     "E:\\fmodTest\\app\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "D:\\androidsdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\fmodTest\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+    "D:\\androidSdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\fmodTest\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
   ],
   "libraries": {
-    "native-lib-Release-x86_64": {
-      "artifactName": "native-lib",
-      "buildCommand": "D:\\androidsdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\fmodTest\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target native-lib",
+    "sound-Release-x86_64": {
+      "artifactName": "sound",
+      "buildCommand": "D:\\androidSdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\fmodTest\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target sound",
       "abi": "x86_64",
-      "output": "E:\\fmodTest\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libnative-lib.so"
+      "output": "E:\\fmodTest\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libsound.so"
     }
   }
 }
